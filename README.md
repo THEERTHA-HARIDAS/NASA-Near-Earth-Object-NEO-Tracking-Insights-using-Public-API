@@ -8,9 +8,10 @@ API_KEY:  This variable stores your NASA API key.  You'll need to replace the pl
 url: This variable holds the base URL for the NASA NEO Feed API.  The script will modify this URL to include date ranges and the API key.
 target: This variable defines the number of asteroid records the script aims to collect. The script will continue fetching data until this target is reached.
 Here a target of 10000 has been made.
-4. Data Retrieval Loop
+3. Data Retrieval Loop
 The core of the script is a while loop that continues as long as the number of collected asteroid records (len(asteroids_data)) is less than the specified target.
-Fetching Data:
+
+4.Fetching Data:
 Inside the loop, the script uses the requests.get(url) function to send a GET request to the NASA API.  The API responds with NEO data in JSON format.
 response.json():  The script converts the JSON response from the API into a Python dictionary, making it easier to work with the data.
 Extracting Asteroid Details:
