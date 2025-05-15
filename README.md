@@ -33,8 +33,10 @@ Inserting Data:
 The script prepares an SQL INSERT statement with placeholders (%s) for the values.
 It iterates through the asteroids_data list, which contains the dictionaries of asteroid information.
 For each asteroid, it extracts the values and appends them as a tuple to the values list.
+
 7.Taking up SQL Queries:
 SQL queries has been made for various problems and is retrieved from the connected database.
+
 8.Constructing a streamlit UI:
 1. Importing Libraries:
 streamlit as st : For creating the user interface.
