@@ -22,7 +22,9 @@ Loop Termination:
 The loop includes checks to stop fetching data once the target number of asteroid records is collected.  It breaks out of the inner and outer loops.
 Pagination:
  The NASA API provides a "next" link in the response, which points to the next page of results. The script updates the url variable with this link, allowing it to fetch data in pages.
+
 5.Connecting with the database using pymysql.connect().
+
 6. Database Interaction:
 Creating the Table:
 The script executes a SQL CREATE TABLE statement to create the asteroids table in your MySQL database.  
