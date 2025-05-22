@@ -3,7 +3,7 @@ import pandas as pd
 import pymysql
 from datetime import date
 
-connection=pymysql.connect(host = "localhost",user = "theertha",password = "Sreekutty@17",database = "nasadata")
+connection=pymysql.connect(host = "localhost",user = "root",password = "password",database = "nasadata")
 cursor=connection.cursor()
 
 st.markdown("""
